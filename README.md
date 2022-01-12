@@ -12,6 +12,10 @@ Luxonis' Oak-D</br>
 
 OWL Stereoscopic Viewer from The London Stereoscopic Company Ltd</br>
 
+Adafruit HDMI 5" 800x480 Display Backpack (resistive touchscreen not used)</br>
+
+(author has this display sitting around)</br>
+
 # Software
 Raspberry Pi OS with desktop</br>
 Release date: October 30th 2021</br>
@@ -43,3 +47,5 @@ https://docs.luxonis.com/projects/api/en/latest/install/?highlight=raspberry%20p
 https://github.com/luxonis/depthai-python
 
 https://github.com/luxonis/depthai-experiments
+
+https://www.adafruit.com/product/2260
