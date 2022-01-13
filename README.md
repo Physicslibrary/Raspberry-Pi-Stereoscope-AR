@@ -1,4 +1,4 @@
-# Raspberry-Pi-Stereoscope-AR
+# Raspberry-Pi-Stereoscope-AR (under construction)
 Exploring Luxonis' Oak-D on a Raspberry Pi with a stereoscope.</br>
  
 # Hardware
@@ -59,6 +59,15 @@ to
         cv2.imshow("Stereoscope AR", resize)
 </pre>
 
+Comment out lines ~258 with "combined"
+
+<pre>
+        #cv2.circle(combined, coords2, 3, leftColor)
+        #cv2.circle(combined, coords1, 3, rightColor)
+
+        # Visualize disparity line frame
+        #cv2.line(combined, coords1, coords2, (0,0,255), 1)
+</pre>
 
 # References</br>
 
