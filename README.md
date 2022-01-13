@@ -40,6 +40,26 @@ https://www.youtube.com/watch?v=-WqDyLV3QjE
 
 <img src="images/stereoscope2.gif" width="480">
 
+Experiment 1 is based on main.py from https://github.com/luxonis/depthai-experiments/tree/master/gen2-triangulation.</br>
+
+Change line ~294</br>
+
+<pre>
+        cv2.imshow("Combined frame", np.concatenate((left, combined ,right), axis=1))
+</pre>
+
+to
+
+<pre>
+        # for 800x480 hdmi display
+        cv2.namedWindow("Stereoscope AR", cv2.WND_PROP_FULLSCREEN)
+        cv2.setWindowProperty("Stereoscope AR",cv2.WND_PROP_FULLSCREEN,cv2.WINDOW_FULLSCREEN)
+        imOut = np.hstack((right, left)) # switch left right for stereoscope AR
+        resize = cv2.resize(imOut, (800,480), interpolation = cv2.INTER_LINEAR)
+        cv2.imshow("Stereoscope AR", resize)
+</pre>
+
+
 # References</br>
 
 https://www.luxonis.com/
