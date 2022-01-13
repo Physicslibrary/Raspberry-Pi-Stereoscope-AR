@@ -36,6 +36,9 @@ Brandon Gilles' youtube "Stereo Neural Inference on OAK-D-Lite" is a starting po
 
 https://www.youtube.com/watch?v=-WqDyLV3QjE
 
+<img src="images/stereoscope.jpg" width="300">
+
+<img src="images/stereoscope2.gif" width="480">
 
 # References</br>
 
