@@ -30,6 +30,12 @@ https://docs.luxonis.com/projects/api/en/latest/install/?highlight=raspberry%20p
 sudo curl -fL https://docs.luxonis.com/install_dependencies.sh | bash
 </pre>
 
+Depthai-python has excellent examples to learn from:</br>
+
+https://github.com/luxonis/depthai-python
+
+Download zip file with "Code" button to Pi and go into examples directory. Try MonoCamera, ColorCamera, FeatureTracker, SpatialDetection, and StereoDepth.</br>
+
 # Experiment 1</br>
 
 Brandon Gilles' youtube "Stereo Neural Inference on OAK-D-Lite" is a starting point for this experiment.<br>
