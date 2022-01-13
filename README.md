@@ -60,3 +60,5 @@ https://www.adafruit.com/product/2260
 Pi 4 auto setup hdmi without manually changing /boot/config.txt. Not sure if it's the hardware or software detecting display connected to it. So, no need to follow instruction below.</br>
 
 https://learn.adafruit.com/adafruit-5-800x480-tft-hdmi-monitor-touchscreen-backpack/raspberry-pi-config
+
+</br>Copyright (c) 2021 Hartwell Fong</br>
