@@ -14,7 +14,7 @@ OWL Stereoscopic Viewer from The London Stereoscopic Company Ltd</br>
 
 Adafruit HDMI 5" 800x480 Display Backpack (resistive touchscreen not used)</br>
 
-(author has this display sitting around, powered from a separate 5V power supply, Pi 4 is not able to power both Oak-D and display)</br>
+(author has this display sitting around, power from a separate 5V source, Pi 4 is not able to power both Oak-D and display)</br>
 
 # Software
 Raspberry Pi OS with desktop</br>
@@ -31,6 +31,11 @@ sudo curl -fL https://docs.luxonis.com/install_dependencies.sh | bash
 </pre>
 
 # Experiment 1</br>
+
+Brandon Gilles' youtube "Stereo Neural Inference on OAK-D-Lite" is a starting point for this experiment.<br>
+
+https://www.youtube.com/watch?v=-WqDyLV3QjE
+
 
 # References</br>
 
