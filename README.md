@@ -48,7 +48,7 @@ Change line ~294</br>
         cv2.imshow("Combined frame", np.concatenate((left, combined ,right), axis=1))
 </pre>
 
-to
+to</br>
 
 <pre>
         # for 800x480 hdmi display
@@ -59,7 +59,7 @@ to
         cv2.imshow("Stereoscope AR", resize)
 </pre>
 
-Comment out lines ~258 with "combined"
+Comment out lines ~258 with "combined"</br>
 
 <pre>
         #cv2.circle(combined, coords2, 3, leftColor)
@@ -67,6 +67,19 @@ Comment out lines ~258 with "combined"
 
         # Visualize disparity line frame
         #cv2.line(combined, coords1, coords2, (0,0,255), 1)
+</pre>
+
+Line ~281</br>
+
+<pre>
+        textHelper.putText(combined, s, (10, y))
+</pre>
+
+to</br>
+
+<pre>
+        textHelper.putText(left, s, (10, y))
+        textHelper.putText(right, s, (10, y))
 </pre>
 
 # References</br>
