@@ -1,4 +1,4 @@
-# Raspberry-Pi-Stereoscope-AR (under construction)
+# Raspberry-Pi-Stereoscope-AR
 Exploring Luxonis' Oak-D on a Raspberry Pi with a stereoscope.</br>
  
 # Hardware
@@ -38,13 +38,15 @@ Download zip file with "Code" button to Pi and go into examples directory. Try M
 
 # Experiment 1</br>
 
-Brandon Gilles' youtube "Stereo Neural Inference on OAK-D-Lite" is a starting point for this experiment.<br>
+Luxonis' webpage "Stereo neural inference" is a starting point for this experiment.<br>
 
-https://www.youtube.com/watch?v=-WqDyLV3QjE
+https://docs.luxonis.com/en/latest/pages/spatial-ai/#stereo-neural-inference
 
 <img src="images/stereoscope.jpg" width="300">
 
 <img src="images/stereoscope2.gif" width="480">
+
+The GIF video is a recording of the stereo mono cameras from Oak-D (separated by baseline of 7.5cm).</br>
 
 Experiment 1 is based on main.py from https://github.com/luxonis/depthai-experiments/tree/master/gen2-triangulation.</br>
 
