@@ -4,7 +4,7 @@ Exploring Luxonis' Oak-D on a Raspberry Pi with a stereoscope.</br>
 # Hardware
 Raspberry Pi 4 Model B (tested 4GB version)</br>
 Raspberry Pi 3 Model B+ (tested 1GB version)</br>
-Pi Zero W (worked but lower performance, should test on Pi Zero 2 W)</br>
+Pi Zero W (worked, lower frame rate)</br>
 
 Luxonis' Oak-D</br>
 
